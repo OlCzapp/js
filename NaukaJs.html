@@ -9,11 +9,11 @@
 <button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"' style="margin-bottom: 30px;">Click Me!</button> <br>
 <!-- "document" - z tego dokumentu, getElementById("") - o tkaim id, innerHTML = "" - z HTML -->
 
+<button type="button" onclick="document.getElementById('paragraf').style.fontSize='30px'">Kliknij aby zmienić rozmiar</button><br>
+<button id="none" type="button" onclick="document.getElementById('paragraf').style.display='none'">Ukryj paragraf</button><br>
+<button id="block" type="button" onclick="document.getElementById('paragraf').style.display='block'" style="margin-bottom: 60px;">Pokaż paragraf</button><br>
 <!--kolejny przykład zmiany właściwości HTML za pomocą JS-->
 <p id="paragraf">zmiana source html</p>
-<button type="button" onclick="document.getElementById('paragraf').style.fontSize='30px'">Kliknij aby zmienić rozmiar</button><br>
-<button id="none" type="button" onclick="document.getElementById('paragraf').style.display='none'" style="margin-bottom: 60px;">Ukryj paragraf</button><br>
-<button id="block" type="button" onclick="document.getElementById('paragraf').style.display='block'" style="margin-bottom: 60px;">Pokaż paragraf</button><br>
 
 <img id="zmiana_zdj" src="zdj2.png" style="width:100px"><br>
 <!-- zmiana_zdj to id naszego zdjęcia które oryginalnie jest zdjęciem z plikami, .src='plik.(format)' zmienia source pliku o danym wcześniej id -->
