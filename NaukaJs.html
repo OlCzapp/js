@@ -6,11 +6,12 @@
 
 <p id="demo">JavaScript can change HTML content.</p> <!-- przykładowy napis w {html} o id {{demo}} -->
 
-<button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Click Me!</button> 
+<button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"' style="margin-bottom: 30px;">Click Me!</button> 
 <!-- "document" - z tego dokumentu, getElementById("") - o tkaim id, innerHTML = "" - z HTML -->
 
 <!--kolejny przykład zmiany właściwości HTML za pomocą JS-->
-<p>zmiana source html</p>
+<p id="powiekszenie">zmiana source html</p>
+<button type="button" onclick="document.getElementById('powiekszenie').style.fontSize='30px'" style="margin-bottom: 60px;">Kliknij aby zmienić rozmiar</button><br>
 
 <img id="zmiana_zdj" src="zdj2.png" style="width:100px"><br>
 <!-- zmiana_zdj to id naszego zdjęcia które oryginalnie jest zdjęciem z plikami, .src='plik.(format)' zmienia source pliku o danym wcześniej id -->
