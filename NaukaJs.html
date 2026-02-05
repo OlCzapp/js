@@ -9,5 +9,13 @@
 <button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Click Me!</button> 
 <!-- "document" - z tego dokumentu, getElementById("") - o tkaim id, innerHTML = "" - z HTML -->
 
+<!--kolejny przykład zmiany właściwości HTML za pomocą JS-->
+<p>zmiana source html</p>
+
+<img id="zmiana_zdj" src="zdj2.png" style="width:100px"><br>
+<!-- zmiana_zdj to id naszego zdjęcia które oryginalnie jest zdjęciem z plikami, .src='plik.(format)' zmienia source pliku o danym wcześniej id -->
+<button onclick="document.getElementById('zmiana_zdj').src='zdj1.png'">zdj 1 z kodem</button><br>
+<button onclick="document.getElementById('zmiana_zdj').src='zdj2.png'">zdj 2 z plikami</button>
+
 </body>
 </html>
